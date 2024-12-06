@@ -1,0 +1,151 @@
+.inputIcon,
+.stayUptoDate {
+  position: relative;
+  flex-shrink: 0;
+}
+.stayUptoDate {
+  margin: 0;
+  height: 94px;
+  width: 551px;
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.inputIcon {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  min-height: 24px;
+}
+.enterYourEmail {
+  width: calc(100% - 164px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-satoshi);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 22px;
+  flex: 1;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+  padding: 0;
+}
+.emailField {
+  align-self: stretch;
+  border-radius: var(--br-43xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-105xl) var(--padding-xs)
+    var(--padding-base);
+  gap: var(--gap-xs);
+}
+.subscribeToNewsletter {
+  width: 172px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-satoshi);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.subscribeButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: var(--color-white);
+  align-self: stretch;
+  border-radius: var(--br-43xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.subscribeButton:hover {
+  background-color: var(--color-gainsboro);
+}
+.inputFields {
+  width: 349px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 349px;
+  max-width: 100%;
+}
+.newsletterForm,
+.newsletterFormWrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.newsletterForm {
+  width: 1240px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-black);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-17xl) var(--padding-45xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.newsletterFormWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-integral-cf);
+}
+@media screen and (max-width: 1200px) {
+  .inputFields {
+    flex: 1;
+  }
+  .newsletterForm {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .stayUptoDate {
+    font-size: var(--font-size-13xl);
+    line-height: 36px;
+  }
+  .newsletterForm {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .inputFields {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .stayUptoDate {
+    font-size: var(--font-size-5xl);
+    line-height: 27px;
+  }
+  .emailField {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

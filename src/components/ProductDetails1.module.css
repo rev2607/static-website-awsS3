@@ -1,0 +1,473 @@
+.shop,
+.shopco {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.shopco {
+  height: 22px;
+  width: 160px;
+  font-size: var(--font-size-13xl);
+  font-weight: 700;
+  font-family: var(--font-integral-cf);
+  display: flex;
+  align-items: center;
+}
+.shop {
+  display: inline-block;
+  min-width: 37px;
+}
+.frameIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.shopLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.brands,
+.newArrivals,
+.onSale {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 56px;
+}
+.brands,
+.newArrivals {
+  min-width: 87px;
+}
+.brands {
+  min-width: 49px;
+}
+.navigation {
+  width: 321px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.searchForProducts {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.search {
+  flex: 1;
+  border-radius: var(--br-43xl);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-355xl) var(--padding-xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 175px;
+  max-width: 100%;
+  color: var(--color-gray-100);
+}
+.userIcons,
+.userIcons1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.brandInfo,
+.findClothesThat {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.brandInfo {
+  width: 1240px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.findClothesThat {
+  margin: 0;
+  width: 577px;
+  height: 173px;
+  position: relative;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.browseThroughOur,
+.shopNow {
+  position: relative;
+  display: inline-block;
+}
+.browseThroughOur {
+  align-self: stretch;
+  height: 33px;
+  line-height: 22px;
+  z-index: 1;
+}
+.shopNow {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-satoshi);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 75px;
+}
+.browseThroughOurDiverseRanParent,
+.shopNowContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shopNowContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-48xl);
+  background-color: var(--color-black);
+  border-radius: var(--br-43xl);
+  overflow: hidden;
+  flex-direction: row;
+  white-space: nowrap;
+  z-index: 1;
+}
+.shopNowContainer:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.browseThroughOurDiverseRanParent {
+  width: 545px;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.attributes {
+  margin-bottom: -2px;
+  height: 54px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.attributesWrapper {
+  width: 107px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.internationalBrands {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  color: var(--color-gray-300);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.imageDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.b,
+.imageDetails1 {
+  position: relative;
+  z-index: 1;
+}
+.imageDetails1 {
+  height: 75px;
+  width: 1px;
+  border-right: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.b {
+  margin-bottom: -2px;
+  height: 54px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.wrapper {
+  width: 146px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.highQualityProducts {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  color: var(--color-gray-300);
+  flex-shrink: 0;
+  z-index: 2;
+}
+.imageDetails2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.b1,
+.imageDetails3 {
+  position: relative;
+  z-index: 1;
+}
+.imageDetails3 {
+  height: 75px;
+  width: 1px;
+  border-right: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.b1 {
+  margin-bottom: -2px;
+  height: 54px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.container {
+  align-self: stretch;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.happyCustomers {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  color: var(--color-gray-300);
+  display: inline-block;
+  min-width: 126px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.imageDetails4 {
+  flex: 1;
+  flex-direction: column;
+  min-width: 111px;
+}
+.imageDescription,
+.imageDetails4,
+.shopNowLink,
+.shopNowLinkWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imageDescription {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-12xl-5);
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.shopNowLink,
+.shopNowLinkWrapper {
+  flex-direction: column;
+  max-width: 100%;
+}
+.shopNowLink {
+  align-self: stretch;
+  gap: var(--gap-29xl);
+}
+.shopNowLinkWrapper {
+  flex: 1;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.heroImageIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  z-index: 1;
+}
+.heroCta,
+.heroTitle,
+.heroTitleWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.heroCta {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-35xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-300);
+  font-family: var(--font-satoshi);
+}
+.heroTitle,
+.heroTitleWrapper {
+  flex-direction: column;
+}
+.heroTitle {
+  align-self: stretch;
+  gap: var(--gap-2xl);
+}
+.heroTitleWrapper {
+  width: 706px;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+}
+.backgroundImageIcon {
+  height: 104px;
+  width: 104px;
+  position: relative;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-integral-cf);
+}
+.brandInfoParent,
+.frameParent,
+.productDetails {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.brandInfoParent {
+  width: 1259px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-91xl);
+}
+.productDetails {
+  width: 1421px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-73xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-satoshi);
+}
+@media screen and (max-width: 1050px) {
+  .shopco {
+    font-size: var(--font-size-7xl);
+  }
+  .findClothesThat {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+  .attributes,
+  .b,
+  .b1 {
+    font-size: var(--font-size-13xl);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .search {
+    padding-right: var(--padding-168xl);
+    box-sizing: border-box;
+  }
+  .brandInfo {
+    gap: var(--gap-xl);
+  }
+  .browseThroughOurDiverseRanParent {
+    gap: var(--gap-base);
+  }
+  .imageDetails1,
+  .imageDetails3 {
+    width: 100%;
+    height: 1px;
+  }
+  .imageDescription {
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+  }
+  .shopNowLink {
+    gap: var(--gap-5xl);
+  }
+  .shopNowLinkWrapper {
+    min-width: 100%;
+  }
+  .heroCta {
+    flex-wrap: wrap;
+    gap: var(--gap-8xl);
+  }
+  .brandInfoParent {
+    gap: var(--gap-36xl);
+  }
+  .productDetails {
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .shopco {
+    font-size: var(--font-size-lgi);
+  }
+  .search {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .findClothesThat {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .attributes,
+  .b,
+  .b1 {
+    font-size: var(--font-size-5xl);
+  }
+  .brandInfoParent {
+    gap: var(--gap-8xl);
+  }
+}

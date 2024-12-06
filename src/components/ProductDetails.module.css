@@ -1,0 +1,412 @@
+.newArrivals,
+.shopNowButton {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.newArrivals {
+  margin: 0;
+  width: 403px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  align-items: center;
+}
+.shopNowButton {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xl) var(--padding-lgi) var(--padding-xl);
+  box-sizing: border-box;
+}
+.productRowChild {
+  width: 295px;
+  height: 298px;
+  position: relative;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.ape,
+.etails,
+.shirt,
+.with {
+  text-transform: lowercase;
+}
+.tShirtWithTapeContainer {
+  position: relative;
+}
+.frameChild,
+.frameInner,
+.frameItem,
+.starIcon {
+  height: 18.5px;
+  width: 18.5px;
+  position: relative;
+  min-height: 19px;
+}
+.frameChild1 {
+  height: 16.7px;
+  width: 8.8px;
+  position: relative;
+}
+.starParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-3);
+}
+.span {
+  color: var(--color-gray-300);
+}
+.separator {
+  position: relative;
+  display: inline-block;
+  min-width: 33px;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-sm);
+}
+.b {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  min-width: 55px;
+  white-space: nowrap;
+}
+.newArrivalsProductDetails,
+.productRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.productRow {
+  gap: var(--gap-base);
+}
+.image8Icon {
+  position: absolute;
+  width: calc(100% - 27px);
+  top: -51px;
+  right: 13px;
+  left: 14px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 402px;
+  object-fit: cover;
+}
+.image8Wrapper {
+  align-self: stretch;
+  height: 298px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.eans,
+.it,
+.kinny {
+  text-transform: lowercase;
+}
+.skinnyFitJeansContainer {
+  position: relative;
+  white-space: nowrap;
+}
+.jeansStarList,
+.jeansStarList1,
+.jeansStarList2 {
+  height: 18.5px;
+  width: 18.5px;
+  position: relative;
+  min-height: 19px;
+}
+.jeansStarsChild {
+  height: 16.7px;
+  width: 8.8px;
+  position: relative;
+}
+.jeansStars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-3);
+}
+.span1 {
+  color: var(--color-gray-300);
+}
+.jeansPrice {
+  position: relative;
+  display: inline-block;
+  min-width: 33px;
+}
+.jeansStarsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-sm);
+}
+.emptyData,
+.emptyData1 {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+}
+.emptyData1 {
+  text-decoration: line-through;
+  color: var(--color-gray-100);
+}
+.empty {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 31px;
+}
+.pricePlaceholder {
+  border-radius: var(--br-43xl);
+  background-color: var(--color-tomato-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-smi);
+}
+.pricePlaceholderWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-tomato-100);
+}
+.emptyDataParent,
+.pricePlaceholderWrapper,
+.productRow1,
+.skinnyFitJeansParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emptyDataParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-5xl);
+}
+.productRow1,
+.skinnyFitJeansParent {
+  flex-direction: column;
+}
+.skinnyFitJeansParent {
+  width: 200px;
+  gap: var(--gap-5xs);
+}
+.productRow1 {
+  gap: var(--gap-base);
+}
+.productRowItem {
+  width: 295px;
+  height: 298px;
+  position: relative;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.heckered,
+.hirt {
+  text-transform: lowercase;
+}
+.checkeredShirt {
+  height: 27px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.shirtStarList,
+.shirtStarList1,
+.shirtStarList2,
+.shirtStarList3 {
+  height: 18.5px;
+  width: 18.5px;
+  position: relative;
+  min-height: 19px;
+}
+.shirtStarsChild {
+  height: 16.7px;
+  width: 8.8px;
+  position: relative;
+}
+.shirtStars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-3);
+}
+.span2 {
+  color: var(--color-gray-300);
+}
+.shirtPrice {
+  position: relative;
+  display: inline-block;
+  min-width: 33px;
+}
+.shirtStarsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-sm);
+}
+.empty1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  min-width: 56px;
+  white-space: nowrap;
+}
+.checkeredShirtParent,
+.productRow2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.productRow2 {
+  gap: var(--gap-base);
+}
+.productRowParent,
+.viewAll {
+  font-family: var(--font-satoshi);
+  text-align: left;
+}
+.productRowParent {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  grid-template-columns: repeat(4, minmax(221px, 1fr));
+  font-size: var(--font-size-xl);
+}
+.viewAll {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 58px;
+}
+.frameWrapper,
+.viewAllWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.viewAllWrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-200);
+  padding: var(--padding-smi) var(--padding-60xl);
+  background-color: transparent;
+  border-radius: var(--br-43xl);
+  overflow: hidden;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.viewAllWrapper:hover {
+  background-color: var(--color-darkslategray-300);
+  border: 1px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-9xl);
+}
+.lineDiv {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.productDetails,
+.shopNowButtonParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.shopNowButtonParent {
+  width: 1240px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+}
+.productDetails {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-20xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-integral-cf);
+}
+@media screen and (max-width: 1050px) {
+  .newArrivals {
+    font-size: var(--font-size-19xl);
+  }
+  .productRowParent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(221px, 383px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .shopNowButtonParent {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .newArrivals {
+    font-size: var(--font-size-10xl);
+  }
+  .tShirtWithTapeContainer {
+    font-size: var(--font-size-base);
+  }
+  .b {
+    font-size: var(--font-size-lgi);
+  }
+  .skinnyFitJeansContainer {
+    font-size: var(--font-size-base);
+  }
+  .emptyData,
+  .emptyData1 {
+    font-size: var(--font-size-lgi);
+  }
+  .checkeredShirt {
+    font-size: var(--font-size-base);
+  }
+  .empty1 {
+    font-size: var(--font-size-lgi);
+  }
+  .productRowParent {
+    grid-template-columns: minmax(221px, 1fr);
+  }
+}

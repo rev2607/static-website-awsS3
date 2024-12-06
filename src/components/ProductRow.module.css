@@ -1,0 +1,124 @@
+.productRowChild {
+  width: 295px;
+  height: 298px;
+  position: relative;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.leeve,
+.shirt,
+.triped {
+  text-transform: lowercase;
+}
+.sleeveStripedTShirtContainer {
+  position: relative;
+}
+.frameChild,
+.frameInner,
+.frameItem,
+.starIcon {
+  height: 18.5px;
+  width: 18.5px;
+  position: relative;
+  min-height: 19px;
+}
+.frameChild1 {
+  height: 16.7px;
+  width: 8.8px;
+  position: relative;
+}
+.starParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-3);
+}
+.span {
+  color: var(--color-gray-300);
+}
+.div {
+  position: relative;
+  display: inline-block;
+  min-width: 33px;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-sm);
+}
+.empty {
+  min-width: 55px;
+  white-space: nowrap;
+}
+.empty,
+.empty1,
+.productImagePlaceholder {
+  position: relative;
+  display: inline-block;
+}
+.empty1 {
+  text-decoration: line-through;
+  color: var(--color-gray-100);
+  min-width: 56px;
+  white-space: nowrap;
+}
+.productImagePlaceholder {
+  font-weight: 500;
+  min-width: 32px;
+}
+.imageContainer {
+  border-radius: var(--br-43xl);
+  background-color: var(--color-tomato-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-smi);
+}
+.imageContainerWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-tomato-100);
+}
+.emptyParent,
+.imageContainerWrapper,
+.productRow,
+.sleeveStripedTShirtParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emptyParent {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-5xl);
+}
+.productRow,
+.sleeveStripedTShirtParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.productRow {
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-satoshi);
+}
+@media screen and (max-width: 450px) {
+  .sleeveStripedTShirtContainer {
+    font-size: var(--font-size-base);
+  }
+  .empty,
+  .empty1 {
+    font-size: var(--font-size-lgi);
+  }
+}
